@@ -1,5 +1,5 @@
 /* Author：254359015@qq.com
- * Github: https://github.com/
+ * Github: https://github.com/li-lihua/Jquery-Loading.git
  * Date：2019-03-26
  * Desc: Jquery实现页面居中显示加载中插件
  * Use：
