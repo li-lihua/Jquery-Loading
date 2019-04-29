@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+ 
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>   
+<script src="js/jquery.loading.js"></script> 
+
+<script type="text/javascript">      
+$(document).ready(function() {
+
+	$(this).showLoading();
+	$(this).showLoading();
+	$(this).showLoading();
+	$(this).showLoading();
+	$(this).showLoading();
+	
+	setTimeout(function () { $(this).hideLoading(); }, 1000);
+	setTimeout(function () { $(this).hideLoading(); }, 2000);
+	setTimeout(function () { $(this).hideLoading(); }, 3000);
+	setTimeout(function () { $(this).hideLoading(); }, 4000);
+	//setTimeout(function () { $(this).hideLoading(); }, 4000);
+	
+});
+
+
+</script>
+<style>
+	._div{margin:10px;}
+</style>
+
+</head>
+<body>
+	<div class="_div"></div>
+	<div style="width:500px;margin:10;">
+		<h4>Jquery实现页面居中显示加载中插件</h4>
+		使用方式：
+		<p>显示加载中：$(this).showLoading();</p>
+		<p>隐藏加载中：$(this).hideLoading();</p>
+	</div>
+
+</body>
+</html>
