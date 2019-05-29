@@ -33,8 +33,8 @@
 		var _cw = $(window).width();
 		var _objL = Number(_sl) + (Number(_cw) - Number(_objW)) / 2; 
 		$(".div-gif").css("left",_objL);
-		$(".div-loading").show();
-		$(".div-gif").fadeIn(fadeTime);
+		$(".div-loading").fadeIn(0);
+		$(".div-gif").fadeIn(0);
 		  
     };
 	
